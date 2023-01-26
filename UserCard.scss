@@ -1,0 +1,22 @@
+.UserCard {
+  height: 200px;
+  border: 2px solid grey;
+  border-radius: 12px;
+  padding: 20px;
+  flex-grow: 1;
+  width: 100%;
+  max-width: calc((100% / 3) - 60px);
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .UserCard {
+    max-width: calc((100% / 2) - 60px);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .UserCard {
+    max-width: calc(100% - 60px);
+  }
+}

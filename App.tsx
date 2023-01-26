@@ -7,7 +7,6 @@ export default function App() {
   return (
     <UsersContextProvider>
       <div className="App">
-        <h1>Users</h1>
         <Users />
       </div>
     </UsersContextProvider>
